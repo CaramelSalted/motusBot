@@ -5,16 +5,22 @@ m o t u s	bot
 
 Установка
 ---------
+
 Создайте виртуальное окружение и активируйте его. Потом в виртуальном окружении выполните:
+
 .. code-block:: text
+
 	pip install -r requirements.txt
 
 Положите картинки в папку img (поддерживаемые разрешения .jpg и .jpeg).
 
 Настройка
 ---------
+
 Создайте файл settings.py и добавьте туда следующие настройки:
+
 .. code-block:: python
+
 	PROXY = {'proxy_url': 'socks5://ВАШ_SOCKS5_ПРОКСИ:1080',
 	'urllib3_proxy_kwargs': {'username': 'ЛОГИН', 'password': 'ПАРОЛЬ'}}
 
@@ -24,6 +30,9 @@ m o t u s	bot
 
 Запуск
 ------
+
 В активированном виртуальном окружении выполните:
+
 .. code-block:: text
+
 	python3 bot.py
